@@ -28,7 +28,7 @@ The main practical point is that a model trained on rich data and deployed on sp
 
 ```
 .
-├── data/          Dataset instructions (data/README.md); data files are git-ignored
+├── data/          Dataset instructions; data files are git-ignored
 ├── notebooks/     01-04, run in order (below)
 ├── report/        report.md: the full write-up
 ├── results/       results.csv, summary\_table.csv and figures/
@@ -56,7 +56,7 @@ The main practical point is that a model trained on rich data and deployed on sp
    pip install -r requirements.txt
    ```
 
-2. **Get the data.** The first run downloads the dataset automatically and caches it in `data/`. A manual download option is described in [`data/README.md`](data/README.md).
+2. **Get the data.** The first run downloads the dataset automatically and caches it in `data/`.
 3. **Run the notebooks in order (01 to 04).** Each notebook works from either the repository root or `notebooks/`.
 
    * The quick configuration in notebook 03 (13 conditions, 2 seeds) is a smoke test and took about 5 minutes.
@@ -102,3 +102,5 @@ If you use this work, please cite it as:
 
 Abasifreke Willie · [github.com/Abbyencrypted](https://github.com/Abbyencrypted)
 
+# credit-risk-calibration-under-scarcity
+A computational study investigating the reliability and calibration of credit-risk models under incomplete, sparse and noisy borrower information.
